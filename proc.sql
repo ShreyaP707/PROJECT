@@ -8,6 +8,8 @@ USE VillageInvestorPortal;
 CREATE TABLE VillageDelegates (
     delegate_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
+    Area size,
+    Population DECIMAL(10,5),
     address VARCHAR(255) NOT NULL,
     mobile VARCHAR(15) NOT NULL UNIQUE,
     resources TEXT,
